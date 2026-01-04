@@ -1,0 +1,32 @@
+import React from 'react';
+import { Line, LineChart, XAxis, YAxis } from 'recharts';
+
+const ResultData=[
+  { "id": 1, "name": "Aarav", "physics": 85, "chemistry": 78, "math": 90 },
+  { "id": 2, "name": "Diya", "physics": 88, "chemistry": 82, "math": 91 },
+  { "id": 3, "name": "Rohan", "physics": 72, "chemistry": 75, "math": 80 },
+  { "id": 4, "name": "Ananya", "physics": 91, "chemistry": 89, "math": 94 },
+  { "id": 5, "name": "Karan", "physics": 68, "chemistry": 70, "math": 73 },
+  { "id": 6, "name": "Meera", "physics": 84, "chemistry": 88, "math": 86 },
+  { "id": 7, "name": "Arjun", "physics": 79, "chemistry": 77, "math": 82 },
+  { "id": 8, "name": "Isha", "physics": 92, "chemistry": 90, "math": 95 },
+  { "id": 9, "name": "Vikram", "physics": 74, "chemistry": 76, "math": 78 },
+  { "id": 10, "name": "Neha", "physics": 87, "chemistry": 85, "math": 89 }
+]
+
+
+const ResultChart = () => {
+    return (
+        <div>
+            <LineChart width={800} height={500} data={ResultData}>
+                <XAxis dataKey={'name'}></XAxis>
+                <YAxis></YAxis>
+                <Line dataKey="math"></Line>
+                <Line dataKey={'physics'} stroke='red'></Line>
+            </LineChart>
+            
+        </div>
+    );
+};
+
+export default ResultChart;

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Membership",
+    "price": 29.99,
+    "description": "Essential gym access for beginners.",
+    "features": [
+      "Access to gym equipment",
+      "Locker room access",
+      "Free fitness assessment"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Membership",
+    "popular":true,
+    "price": 49.99,
+    "description": "Balanced plan for regular gym members.",
+    "features": [
+      "Unlimited gym access",
+      "Group fitness classes",
+      "Locker room and showers",
+      "1 personal training session per month"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Membership",
+    "price": 79.99,
+    "description": "All-inclusive plan with personal coaching.",
+    "features": [
+      "24/7 gym access",
+      "Unlimited group classes",
+      "Unlimited personal training",
+      "Sauna and steam room access",
+      "Personalized workout plan"
+    ]
+  }
+]
